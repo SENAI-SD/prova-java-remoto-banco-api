@@ -10,9 +10,9 @@ services:
     environment:
       POSTGRES_PASSWORD: ist
       POSTGRES_USER: ist
-      POSTGRES_DB: ist
+      POSTGRES_DB: ist-api
     ports:
-      - "5432:5433"
+      - "5433:5432"
     networks:
       - ist-network
 
