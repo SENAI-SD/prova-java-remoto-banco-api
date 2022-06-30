@@ -22,7 +22,7 @@ A imagem docker contem à seguinte configuração:
 
 #### String de conexão jdbc:
 
-jdbc:postgresql://localhost:5433/ist
+jdbc:postgresql://localhost:5433/ist-api
 
 ## Docker
 
