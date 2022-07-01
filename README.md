@@ -4,7 +4,7 @@ Na pasta raiz desse projeto, onde encontra-se o arquivo *docker-compose.yaml*, o
 
 `docker-compose up -d`
 
-Verificar possíveis conflitos de porta, caso já haja alguma instancia usando a porta 5432 do *localhost*.
+Verificar possíveis conflitos de porta, caso já haja alguma instancia usando a porta 5433 do *localhost*.
 
 Para parar o servidor, utilizar o comando:
 
@@ -16,7 +16,7 @@ A imagem docker contem à seguinte configuração:
 
 - **host**: localhost (ou 127.0.0.1)
 - **port**: 5433
-- **database**: ist
+- **database**: ist-api
 - **user**: ist
 - **pass**: ist
 
